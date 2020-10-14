@@ -1,0 +1,2 @@
+include ':app', ':peoplelibrary'
+rootProject.name='PeopleApp'

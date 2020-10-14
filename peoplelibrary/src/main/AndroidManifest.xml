@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyjx.peoplelibrary" >
+    <application>
+        <activity android:name=".tree.TreeActivity" android:theme="@style/dialogstyle"></activity>
+    </application>
+</manifest>

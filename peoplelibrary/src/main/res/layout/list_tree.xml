@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="500dp"
+    android:background="#ffffffff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#49A1F8"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="经办人"></TextView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+         >
+
+        <ListView
+            android:id="@+id/list_tree_code_list"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:paddingLeft="5dp"
+            android:layout_weight="0.0"
+            android:background="#ffffffff"
+            android:cacheColorHint="#ffffffff"
+            android:divider="@drawable/divider_list"
+            android:dividerHeight="2.0dp"
+            android:drawSelectorOnTop="false"
+            android:fadingEdgeLength="0.0sp"
+            android:fastScrollEnabled="true"
+            android:scrollbars="none" />
+    </RelativeLayout>
+    <include layout="@layout/tree_bottom" >
+    </include>
+
+</RelativeLayout>
